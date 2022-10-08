@@ -28,7 +28,7 @@ void quick(int a[], int start, int end)
         quick(a, p + 1, end);  
     }  
 }  
-void printArr(int a[], int n)  
+void printArr(int a[], int n)
 {  
     int i;  
     for (i = 0; i < n; i++)  
